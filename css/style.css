@@ -1,0 +1,11 @@
+body{
+    display: grid;
+    grid-template-areas: 'nav nav nav nav'
+                         'header header header header'
+                         'section section section section'
+                         'aside aside aside aside'
+                         'footer footer footer footer';
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 78vh 5vh 15vh 30vh 10vh;
+    margin: 0; 
+}
