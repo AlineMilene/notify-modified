@@ -18,41 +18,66 @@ footer{
 header{
     grid-area: header;
 }
+#mao{
+    height: 400px;
+}
 nav{
     background-image: url("../images/banner.png");
     border-top: solid;
     border-top-width: 8px;
-    border-top-color: green;
+    border-top-color: #114e2a;
     display: flex;
     justify-content: space-around;
     grid-area: nav;
 }
-nav div{
-    text-align: center;
-    height: 100%;
-}
 nav div h1{
-    font-family: 'Pacifico', cursive;
     color: white;
-    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 30pt;
+    margin:0;
 }
 nav div p{
+    color: white;
     font-family: 'Pacifico', cursive;
     font-family: 'Roboto', sans-serif;
-    color: white;
-}
-nav div img{
-    height: 400px;
+    font-size: 15pt;
 }
 nav div:nth-child(1){
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 17vw;
+    padding: 3vw;
 }
 nav div:nth-child(2){
-    display: flex;
     align-items: flex-end;
+    display: flex;
+    margin-right: 15vw;
+}
+nav div div{
+    display: flex;
+}
+nav div div span{
+    background-color: black;
+    border-radius: 100%;
+    height: 50px;
+    margin-right: 5px;
+    opacity: 0.6;
+    width: 50px;
+}
+nav div div span img{
+    width: 26px;
+    height: 26px;
+    padding: 12px;
+}
+nav div div span img:hover{
+    background-color: #2dcc70;
+    border-radius: 50%;
+    opacity: 1;
 }
 section{
     grid-area: section;
 }
+
+
+
