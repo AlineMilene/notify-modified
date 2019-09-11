@@ -1,5 +1,47 @@
 aside{
+    font-family:'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     grid-area: aside;
+}
+aside h5{
+    font-size: 12pt;
+    margin: 1.5vw 0 1.5vw 0;  
+}
+aside h2{
+    font-size: 20pt;
+    margin: 3.2vw 0 0.7vw 0;
+}
+aside div{
+    display: flex;
+}
+aside div span{
+    display: flex;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+aside div span a{
+    display: flex;
+    justify-content: center;
+}
+aside div span a img{
+    align-items: center;
+}
+aside p{
+    color:#a6a6a6;
+    margin:1vw 0 2vw 0;   
+}
+aside p:nth-child(1){
+    font-style: italic;
+    text-align: center;
+    margin: 3vw 10vw 0 10vw;  
+}
+aside div span a img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(1000%);
+    filter:white;
 }
 body{
     display: grid;
@@ -9,7 +51,7 @@ body{
                          'aside aside aside aside'
                          'footer footer footer footer';
     grid-template-columns: 24.7vw 24.7vw 24.67vw 24.7vw;
-    grid-template-rows: 78vh 35vh 50vh 50vh 17vh;
+    grid-template-rows: 78vh 35vh 50vh 70vh 17vh;
     margin: 0; 
 }
 button{
@@ -22,18 +64,6 @@ button{
     font-size: 13.5pt; 
     width:100px;
     height: 40px;
-}
-input{
-    border:0;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px; 
-    width: 250px;
-    height: 40px;
-    padding: 0; 
-}
-section div div input::placeholder{
-    color: #a4a4a4;
-    padding-left: 15px;
 } 
 footer{
     align-items: center;
@@ -82,6 +112,14 @@ header div span{
 }
 header div span img{
     padding: 16px;
+}
+input{
+    border:0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; 
+    width: 250px;
+    height: 40px;
+    padding: 0; 
 }
 #mao{
     height: 400px;
@@ -160,6 +198,9 @@ section div iframe{
 section div p{
     color: #8e8e8e;
 }
-
+section div div input::placeholder{
+    color: #a4a4a4;
+    padding-left: 15px;
+}
 
 
