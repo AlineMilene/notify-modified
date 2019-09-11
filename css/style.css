@@ -102,9 +102,9 @@ nav div div span img{
     height: 26px;
     padding: 12px;
 }
-nav div div span img:hover{
+nav div div span:hover{
+    border-radius: 100%;
     background-color: #2dcc70;
-    border-radius: 50%;
     opacity: 1;
 }
 section{
