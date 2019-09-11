@@ -9,12 +9,27 @@ body{
                          'aside aside aside aside'
                          'footer footer footer footer';
     grid-template-columns: 24.7vw 24.7vw 24.67vw 24.7vw;
-    grid-template-rows: 78vh 35vh 50vh 30vh 10vh;
+    grid-template-rows: 78vh 35vh 50vh 50vh 17vh;
     margin: 0; 
 }
+button{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; 
+    width:100px;
+    height: 30px;
+}
 footer{
+    align-items: center;
     background-color: #e3e3e3;
+    display: flex;
     grid-area: footer;
+    justify-content: space-around;
+}   
+footer div a{
+    color: #909090;
+    font-family: 'Roboto', sans-serif; 
+    text-decoration: none;
+    padding: 10px;
 }
 header{
     align-items: center;
@@ -33,7 +48,7 @@ header div{
 header div h3{
     font-family: 'Pacifico', cursive;
     font-family: 'Roboto', sans-serif;
-    font-size: 15pt;
+    font-size: 17pt;
     margin: 10px 0 0 0;
 }
 header div p{
@@ -112,7 +127,11 @@ section{
     align-items: center;
     background-color: #e3e3e3;
     display: flex;
+    font-family: 'Roboto', sans-serif;
     grid-area: section;
+}
+section div p{
+    color: #8e8e8e;
 }
 
 
