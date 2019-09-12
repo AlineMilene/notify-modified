@@ -38,11 +38,11 @@ aside p:nth-child(1){
     text-align: center;
     margin: 3vw 10vw 0 10vw;  
 }
-aside div span a img{
+/* aside div span a img{
     -webkit-filter: grayscale(100%);
     filter: grayscale(1000%);
     filter:white;
-}
+} */
 body{
     display: grid;
     grid-template-areas: 'nav nav nav nav'
@@ -51,7 +51,7 @@ body{
                          'aside aside aside aside'
                          'footer footer footer footer';
     grid-template-columns: 24.7vw 24.7vw 24.67vw 24.7vw;
-    grid-template-rows: 78vh 35vh 50vh 70vh 17vh;
+    grid-template-rows: 78vh 35vh 50vh 60vh 17vh;
     margin: 0; 
 }
 button{
@@ -62,6 +62,7 @@ button{
     font-family:'Roboto', sans-serif;
     font-weight: bold;
     font-size: 13.5pt; 
+    margin-right: 10px; 
     width:100px;
     height: 40px;
 } 
