@@ -42,6 +42,7 @@ aside p:nth-child(1){
     -webkit-filter: grayscale(100%);
     filter: grayscale(1000%);
     filter:white;
+    aaa
 } */
 body{
     display: grid;
