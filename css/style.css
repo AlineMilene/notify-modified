@@ -254,6 +254,10 @@ section div div input::placeholder{
 }
 
 @media(max-width:425px) /* MOBILE L 425PX */{
+    aside{
+        display: flex;
+        justify-content: center;
+    }
     aside p{
         font-size: 18pt;
         margin: 3vh 0 2vh 0;
@@ -266,7 +270,7 @@ section div div input::placeholder{
     }
     body{
         grid-template-columns: 50vw 50vw 50vw 45vw;
-        grid-template-rows: 78vh 150vh 100vh 70vh 17vh;
+        grid-template-rows: 78vh 180vh 120vh 90vh 17vh;
     }
     button{
         width:120px;
@@ -309,6 +313,7 @@ section div div input::placeholder{
     section{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     section div:nth-child(1) {
         margin-left: 35vw;
@@ -328,6 +333,10 @@ section div div input::placeholder{
     }
 }
 @media(max-width:375px) /* MOBILE M 375PX */{
+    aside{
+        display: flex;
+        justify-content: center;
+    }
     aside p{
         font-size: 18pt;
         margin: 3vh 0 2vh 0;   
@@ -340,7 +349,7 @@ section div div input::placeholder{
     }
     body{
         grid-template-columns: 52vw 52vw 55vw 55vw;
-        grid-template-rows: 78vh 150vh 100vh 70vh 17vh;
+        grid-template-rows: 78vh 180vh 120vh 90vh 17vh;
     }
     #mao{
         width:0;
@@ -369,6 +378,10 @@ section div div input::placeholder{
     nav div p{
         font-size: 25pt;
     }
+    section{
+        display: flex;
+        justify-content: center;
+    }
     section div h3{
         font-size: 25pt;
         margin: 2vh 0;
@@ -380,6 +393,10 @@ section div div input::placeholder{
 }
 
 @media(max-width:320px) /* MOBILE S 320PX */{
+    aside{
+        display: flex;
+        justify-content: center;
+    }
     aside p{
         font-size: 18pt;
     }
@@ -391,7 +408,7 @@ section div div input::placeholder{
     }
     body{
         grid-template-columns: 65vw 65vw 60vw 60vw;
-        grid-template-rows: 78vh 150vh 100vh 70vh 17vh;
+        grid-template-rows: 78vh 180vh 120vh 90vh 17vh;
     }
     #mao{
         width:0;
@@ -419,6 +436,10 @@ section div div input::placeholder{
     }
     nav div p{
         font-size: 25pt;
+    }
+    section{
+        display: flex;
+        justify-content: center;
     }
     section div h3{
         font-size: 25pt;
