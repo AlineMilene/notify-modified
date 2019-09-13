@@ -68,7 +68,10 @@ button{
     margin-right: 10px; 
     width:100px;
     height: 40px;
-} 
+}
+#input::placeholder{
+    color: #2dcc70;
+}
 footer{
     align-items: center;
     background-color: #e3e3e3;
